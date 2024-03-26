@@ -11,7 +11,7 @@ from langchain.prompts.prompt import PromptTemplate
 from langchain_community.llms import Ollama
 
 
-ACCESS_TOKEN = "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"
+ACCESS_TOKEN = "****************************"
 
 
 def explain(documents):
@@ -57,7 +57,7 @@ def explain(documents):
 
 
 
-url = 'karthikkrishna1/HTV8'
+url = '******************'
 if (url):
     loader = GithubFileLoader(
         repo=f'{url}',  # the repo name
